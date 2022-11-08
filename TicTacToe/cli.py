@@ -9,4 +9,4 @@ if __name__ == '__main__':
       #
 
 
-      winner = 'x' 
+      winner = 'X' 
