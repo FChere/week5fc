@@ -46,7 +46,7 @@ if __name__ == '__main__':
             if 0 <= coordinate_x <= 2 and 0 <= coordinate_y <= 2:
                 input_is_valid = True
             else:
-                print("Invalid Input! Please try again for integers between 0 and 2.")
+                print("Wrong move, please try again")
 
         # Update the board
         board[coordinate_x][coordinate_y] = current_player
@@ -58,4 +58,4 @@ if __name__ == '__main__':
         # Switch player
         current_player = other_player(current_player)
 
-    print("Winner is", winner)
+    print("The winner is", winner)
