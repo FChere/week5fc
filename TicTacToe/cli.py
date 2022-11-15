@@ -31,6 +31,7 @@ if __name__ == '__main__':
         # TODO: Update who's turn it is.
 
         # Current player
+        print("")
         print(current_player, "please make a move")
 
         # Input a move from the player
